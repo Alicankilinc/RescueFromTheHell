@@ -1,0 +1,589 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686069842237570, "dur":1399, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069842238985, "dur":861, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686069842239892, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686069842239920, "dur":272, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686069842240210, "dur":690, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069842240900, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843276968, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277155, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277170, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277174, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277189, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277193, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277203, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277206, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277218, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277220, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277231, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277233, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277239, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277241, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277247, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277249, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277254, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277265, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843277289, "dur":1839, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686069842240632, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842240916, "dur":3920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842244844, "dur":22941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686069842267788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842267810, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686069842270571, "dur":35230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842305807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842305818, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842307404, "dur":35389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842342798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842342808, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842345448, "dur":31875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842377326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842377334, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842378930, "dur":127978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842506933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842506943, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842508258, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842508388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842508395, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842509780, "dur":32676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842542462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842542468, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842543646, "dur":34733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842578388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842578400, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842580115, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842580317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842580326, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842581330, "dur":65522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842646858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842646867, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842647884, "dur":345229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842993120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842993132, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686069842995446, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686069842995470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069842995476, "dur":9403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686069843004903, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686069843004929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686069843004938, "dur":204287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686069843209243, "dur":67718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842240720, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842240922, "dur":3915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842244842, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686069842245145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842246667, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686069842249041, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686069842249240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842249415, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686069842251953, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686069842252194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842252284, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686069842257062, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686069842257257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842257271, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686069842259883, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686069842260036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842260046, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686069842262525, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1686069842262626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842262632, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1686069842264514, "dur":2130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842266647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842267593, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842269709, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842269946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842270478, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842271576, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842271854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842271931, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842275028, "dur":68111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842343143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842343150, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842346077, "dur":31677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842377757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842377764, "dur":7188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842385006, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842385309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842385326, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842387063, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842387311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842387327, "dur":7303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842394667, "dur":1847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842396525, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842396544, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842400201, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842400832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842400848, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842402844, "dur":49479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842452336, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842452362, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842454135, "dur":26414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842480555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842480566, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842482127, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842482399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842482409, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842483990, "dur":85739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842569733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842569740, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842571299, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842572169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842572180, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842575173, "dur":195118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842770297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842770307, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842771487, "dur":38769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842810260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842810269, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842812128, "dur":69418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842881552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842881562, "dur":15767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842897352, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842897578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842897587, "dur":5608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842903221, "dur":92898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069842996125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069842998730, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686069843001134, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843001159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843001169, "dur":26098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843027308, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843027341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843027357, "dur":5264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843032646, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686069843032778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843032785, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686069843034622, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843034649, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843034675, "dur":25705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843060437, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843060488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843060502, "dur":142531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686069843203073, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686069843203114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686069843203127, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686069843206617, "dur":70346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842241009, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842241009, "dur":3856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842244865, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686069842245014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842247022, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686069842249004, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686069842249168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842249535, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686069842251893, "dur":12978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686069842264875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842264885, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686069842268089, "dur":55430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686069842323526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842323537, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686069842325411, "dur":44228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842369646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842369657, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842371336, "dur":94377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842465750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842465760, "dur":7079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842472863, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842473102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842473110, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842474225, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842474458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842474466, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842475836, "dur":47554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842523396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842523408, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842525196, "dur":40147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842565353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842565365, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842566672, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842566869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842566877, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842568267, "dur":65708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842633978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842633984, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842635332, "dur":125136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842760474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842760484, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842761673, "dur":149569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842911249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842911259, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686069842912900, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686069842913060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842917043, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1686069842918484, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686069842918508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842918577, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686069842922329, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069842922361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842922372, "dur":10063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069842932459, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686069842932478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842932485, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686069842934508, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069842934529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069842934539, "dur":108223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069843042804, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069843042833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686069843042842, "dur":174401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686069843217306, "dur":59656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842240631, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842240911, "dur":3921, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842244843, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1686069842244847, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842245252, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1686069842245256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842245844, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1686069842248797, "dur":17806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686069842266609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842266619, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686069842268933, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686069842269065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842269592, "dur":12176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686069842281826, "dur":61411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842343240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842343246, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842347132, "dur":30034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842377171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842377181, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842378824, "dur":58526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842437356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842437365, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842438612, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842438749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842438757, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842439914, "dur":51684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842491604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842491615, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842492911, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842493049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842493055, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842494560, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842494716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842494724, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842495798, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842496215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842496225, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842497593, "dur":37175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842534772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842534780, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842536330, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842536485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842536495, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842538455, "dur":31038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842569500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842569512, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842571295, "dur":62376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842633677, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842633716, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842635480, "dur":233036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842868521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842868531, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842870406, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842871294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842871304, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842873057, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842873244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842873252, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842874246, "dur":4797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842879055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069842879091, "dur":16781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069842895899, "dur":379633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069843275539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686069843275550, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686069843276940, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1686069843276942, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842240848, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842240933, "dur":3901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842244843, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686069842245018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842246879, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686069842249249, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686069842249356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842249744, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686069842251990, "dur":13504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686069842265501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842265508, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686069842268057, "dur":3390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686069842271452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842271461, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686069842276729, "dur":65951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842342686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842342696, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842345436, "dur":69319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842414759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842414768, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842418399, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842418696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842418708, "dur":15109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842433845, "dur":59005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842492855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842492864, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842494368, "dur":38758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842533135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842533146, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842534565, "dur":59552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842594123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842594133, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842595312, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842595439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842595445, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842597176, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842597294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842597302, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842598531, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842598681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842598707, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842600618, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842600722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842600728, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842602265, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842602381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842602388, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842603726, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842604401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842604407, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842606315, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842606434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842606441, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842608360, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842608474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842608481, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842609919, "dur":133730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842743678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842743688, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842744862, "dur":58014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842802883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069842802893, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069842804271, "dur":341105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069843145382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069843145393, "dur":14136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686069843159585, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1686069843159627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686069843159643, "dur":59074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1686069843218761, "dur":58217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842241163, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842241163, "dur":3670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842244843, "dur":67997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686069842312846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842313401, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686069842315573, "dur":62467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842378044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842378050, "dur":5470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842383564, "dur":50698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842434266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842434301, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842435691, "dur":29700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842465398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842465411, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842466824, "dur":41175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842508004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842508012, "dur":8044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842516086, "dur":181823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842697915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842697924, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842699322, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842699440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842699446, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842701654, "dur":108107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842809767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069842809780, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069842812031, "dur":325284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069843137323, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069843137338, "dur":31992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686069843169364, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1686069843169395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686069843169406, "dur":61467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1686069843230898, "dur":46068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842241391, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842241392, "dur":3472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842244864, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686069842245135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842246675, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686069842249029, "dur":16457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686069842265490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842265499, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686069842267986, "dur":109677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842377667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842377672, "dur":30491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842408604, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842408883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842408894, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842410306, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842410539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842410550, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842411869, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842412174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842412181, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842413523, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842413717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842413727, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842414851, "dur":89314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842504173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842504185, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842507279, "dur":35167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842542450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842542459, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842543620, "dur":38742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842582391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842582400, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842584978, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842585419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842585435, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842587237, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842587707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842587718, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842591551, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842591804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842591814, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842595166, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842595276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842595284, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842598223, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842598367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842598374, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842600197, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842600340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842600348, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842601491, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842601621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842601629, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842602716, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842602816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842602822, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842604231, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842604334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842604341, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842607591, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842607852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842607860, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842609751, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842610242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842610252, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842613493, "dur":89019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842702517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842702527, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842704150, "dur":101279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842805434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842805444, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842806765, "dur":3056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842809824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842809832, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842813138, "dur":1349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842814495, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842814510, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842816740, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842817072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842817083, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842818778, "dur":178597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069842997383, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069842997397, "dur":8937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686069843006379, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686069843006419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069843006431, "dur":25945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686069843032412, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686069843032439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069843032454, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686069843034478, "dur":27072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1686069843061556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069843061567, "dur":6154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1686069843067778, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1686069843067842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069843067860, "dur":97385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1686069843165292, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686069843165320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686069843165339, "dur":61510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686069843226886, "dur":50086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842241283, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842241283, "dur":3555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842244843, "dur":20645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686069842265491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842265580, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686069842267173, "dur":57987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842325170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842325269, "dur":11465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842336799, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842337030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842337040, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842338484, "dur":40298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842378789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842378798, "dur":35056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842413875, "dur":31050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842444931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842444941, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842446163, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842446302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842446310, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842447261, "dur":43400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842490671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842490740, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842492334, "dur":47539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842539879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842539890, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842542463, "dur":1514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842543981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842543990, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842546234, "dur":40914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842587155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842587165, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842589224, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842589864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842589875, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842592158, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842592389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842592396, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842595122, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842595570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842595576, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842598593, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842598738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842598742, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842600779, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842600994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842601000, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842602458, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842602560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842602569, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842604017, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842604135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842604146, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842605689, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842606231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842606241, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842607967, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842608785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842608791, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842610537, "dur":384249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069842994803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069842994817, "dur":8475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686069843003342, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686069843003380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843003443, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686069843006460, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1686069843006486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843006492, "dur":28855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1686069843035371, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686069843035393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843035400, "dur":11190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686069843046634, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1686069843046671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843046684, "dur":88432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1686069843135165, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843135188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843135236, "dur":34646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843169910, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843169933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843169939, "dur":6815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843176791, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1686069843176817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843176829, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1686069843179337, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843179365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843179374, "dur":26060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686069843205463, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1686069843205493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843205503, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1686069843206582, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1686069843206687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686069843206695, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Alican Kln/Downloads/RescueFromTheHell_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1686069843207510, "dur":69455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686069843280316, "dur":2315, "ph":"X", "name": "ProfilerWriteOutput" }
+,
